@@ -1,0 +1,13 @@
+[RESOURCES]
+rec.Train
+[VARIABLES]
+var.Time
+Is probe drilling required?.NumberOut True
+Is probe drilling required?.NumberOut False
+Is utility extension required?.NumberOut False
+Parall Acts.NumberOut Orig
+Parall Acts.NumberOut Dup
+var.TunnelLength
+Is utility extension required?.NumberOut True
+Parallel Acts.NumberOut
+Tunnel Operation Starts.NumberOut

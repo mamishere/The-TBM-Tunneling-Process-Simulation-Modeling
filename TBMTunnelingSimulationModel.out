@@ -1,0 +1,180 @@
+
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 1 of 20
+
+Project: TBM Tunneling Simulation Model                              Run execution date : 1/28/2023
+Analyst: Mohammad Hossein Mahmoudi, Mehdi HamisheBahar               Model revision date: 1/28/2023
+
+Replication ended at time      : 2001.5604 Hours (Saturday, March 25, 2023, 20:17:32)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Hold For a Free Train.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         68    
+Train Seizing.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         68    
+Parallel Acts.Queue.WaitingTime             2.7478     (Insuf)    .00000     19.002        136    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                68.194     (Insuf)    .00000     137.00     137.00    
+rec.Train.NumberBusy                        .62921     (Insuf)    .00000     1.0000     .00000    
+rec.Train.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Train.Utilization                       .62921     (Insuf)    .00000     1.0000     .00000    
+Hold For a Free Train.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Train Seizing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Parallel Acts.Queue.NumberInQueue           .18671     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           137.00    
+Entity 1.NumberOut                          .00000    
+rec.Train.NumberSeized                      68.000    
+rec.Train.ScheduledUtilization              .62921    
+System.NumberOut                            .00000    
+
+Beginning replication 2 of 20
+
+----------------------------------------------------------------------
+19114:GGTAEC
+Entity: 150
+A runtime error was detected at time 2029.4888 at the following block:
+
+ *   22 23$             DUPLICATE,100-50:1,57$,50:NEXT(56$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+2029.4888 Hours>
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: TBM Tunneling Simulation Model                              Run execution date : 1/28/2023
+Analyst: Mohammad Hossein Mahmoudi, Mehdi HamisheBahar               Model revision date: 1/28/2023
+
+Replication ended at time      : 2029.4888 Hours (Monday, March 27, 2023, 00:13:15)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Hold For a Free Train.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         75    
+Train Seizing.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         75    
+Parallel Acts.Queue.WaitingTime             2.1014     (Insuf)    .00000     21.159        148    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                73.225     (Insuf)    .00000     149.00     149.00    
+rec.Train.NumberBusy                        .63570     (Insuf)    .00000     1.0000     1.0000    
+rec.Train.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Train.Utilization                       .63570     (Insuf)    .00000     1.0000     1.0000    
+Hold For a Free Train.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Train Seizing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Parallel Acts.Queue.NumberInQueue           .15325     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           149.00    
+Entity 1.NumberOut                          .00000    
+rec.Train.NumberSeized                      75.000    
+rec.Train.ScheduledUtilization              .63570    
+System.NumberOut                            .00000    
+
+
+2029.4888 Hours>
+                                      ARENA Simulation Results
+                            Mohammad Hossein Mahmoudi - License: STUDENT
+
+                                  Summary for Replication 2 of 20
+
+Project: TBM Tunneling Simulation Model                              Run execution date : 1/28/2023
+Analyst: Mohammad Hossein Mahmoudi, Mehdi HamisheBahar               Model revision date: 1/28/2023
+
+Replication ended at time      : 2029.4888 Hours (Monday, March 27, 2023, 00:13:15)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                                 --         --         --         --          0
+Entity 1.NVATime                                --         --         --         --          0
+Entity 1.WaitTime                               --         --         --         --          0
+Entity 1.TranTime                               --         --         --         --          0
+Entity 1.OtherTime                              --         --         --         --          0
+Entity 1.TotalTime                              --         --         --         --          0
+Hold For a Free Train.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         75    
+Train Seizing.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         75    
+Parallel Acts.Queue.WaitingTime             2.1014     (Insuf)    .00000     21.159        148    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                73.225     (Insuf)    .00000     149.00     149.00    
+rec.Train.NumberBusy                        .63570     (Insuf)    .00000     1.0000     1.0000    
+rec.Train.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+rec.Train.Utilization                       .63570     (Insuf)    .00000     1.0000     1.0000    
+Hold For a Free Train.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Train Seizing.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Parallel Acts.Queue.NumberInQueue           .15325     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           149.00    
+Entity 1.NumberOut                          .00000    
+rec.Train.NumberSeized                      75.000    
+rec.Train.ScheduledUtilization              .63570    
+System.NumberOut                            .00000    
+
