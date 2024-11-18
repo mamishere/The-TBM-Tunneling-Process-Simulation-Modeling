@@ -1,5 +1,7 @@
 # TBM Tunneling Process Simulation
 
+## Overview
+
 <p align="justify">
 This project involves simulation modeling of the TBM (Tunnel Boring Machine) tunneling process. The simulation was conducted using the Arena simulation software. The primary objective was to create a detailed model of the tunneling process, allowing for analysis and optimization of various aspects of TBM operations.
 </p>
@@ -39,8 +41,8 @@ This table details the statistical expressions used for each activity, showcasin
 ## Tools and Methods
 
 <p align="justify">
-- **Simulation Software:** Arena  
-- **Modeling Approach:** Discrete Event Simulation (DES) was used to model the TBM tunneling process. This approach allows for the simulation of complex interactions and events that occur during tunneling operations.
+<strong>Simulation Software:</strong> Arena  
+<strong>Modeling Approach:</strong> Discrete Event Simulation (DES) was used to model the TBM tunneling process. This approach allows for the simulation of complex interactions and events that occur during tunneling operations.
 </p>
 
 <p align="center">
@@ -56,8 +58,8 @@ Key tunneling activities and various operational scenarios were defined, includi
 ### First Organizations
 
 <p align="justify">
-1. **Starting The Project**  
-   The project begins with initial setup activities, including defining starter variables and organizing shift meetings.
+<strong>1. Starting The Project:</strong>  
+The project begins with initial setup activities, including defining starter variables and organizing shift meetings.
 </p>
 
 <p align="center">
@@ -67,8 +69,8 @@ Key tunneling activities and various operational scenarios were defined, includi
 ### Probe Drilling, Boring, and Train Loading
 
 <p align="justify">
-2. **Probe Drilling and Boring**  
-   This stage includes probe drilling to assess ground conditions and train loading for transporting excavated materials.
+<strong>2. Probe Drilling and Boring:</strong>  
+This stage includes probe drilling to assess ground conditions and train loading for transporting excavated materials.
 </p>
 
 <p align="center">
@@ -78,8 +80,8 @@ Key tunneling activities and various operational scenarios were defined, includi
 ### Ground Troubleshooting and Fixing Tools
 
 <p align="justify">
-3. **Troubleshooting and Tool Fixing**  
-   This section addresses troubleshooting ground issues and fixing tools during the tunneling process.
+<strong>3. Troubleshooting and Tool Fixing:</strong>  
+This section addresses troubleshooting ground issues and fixing tools during the tunneling process.
 </p>
 
 <p align="center">
@@ -89,8 +91,8 @@ Key tunneling activities and various operational scenarios were defined, includi
 ### Transportation
 
 <p align="justify">
-4. **Handling Transport Logistics**  
-   Managing transportation logistics, including train utilization and addressing issues related to train operation and track maintenance.
+<strong>4. Handling Transport Logistics:</strong>  
+Managing transportation logistics, including train utilization and addressing issues related to train operation and track maintenance.
 </p>
 
 <p align="center">
@@ -100,8 +102,8 @@ Key tunneling activities and various operational scenarios were defined, includi
 ### Surveying Check and End of The Cycle
 
 <p align="justify">
-5. **Surveying and Cycle Completion**  
-   Surveying activities are conducted to check the tunnel alignment and ensure the accuracy of tunneling progress, marking the end of a cycle.
+<strong>5. Surveying and Cycle Completion:</strong>  
+Surveying activities are conducted to check the tunnel alignment and ensure the accuracy of tunneling progress, marking the end of a cycle.
 </p>
 
 <p align="center">
@@ -117,8 +119,8 @@ The simulation model includes detailed modeling of resource usage, such as TBM e
 ## Statistical Analysis
 
 <p align="justify">
-- **Performance Metrics:** Key metrics, such as tunneling speed, downtime, and resource utilization, were analyzed to identify inefficiencies and optimize operations.  
-- **Optimization Scenarios:** Various scenarios were tested to determine optimal configurations for maximum efficiency.
+<strong>Performance Metrics:</strong> Key metrics, such as tunneling speed, downtime, and resource utilization, were analyzed to identify inefficiencies and optimize operations.  
+<strong>Optimization Scenarios:</strong> Various scenarios were tested to determine optimal configurations for maximum efficiency.
 </p>
 
 ## Results
@@ -134,7 +136,7 @@ This project is a replication of the following studies:
 </p>
 
 <p align="justify">
-1. A. Khetwal, J. Rostami, P.P. Nelson, "Introducing uniform discrete event simulation (CSM2020) for modeling the TBM tunneling process," *Tunnelling and Underground Space Technology*, vol. 125, 2022.  
-2. A. Khetwal, J. Rostami, O. Frough, and P. P. Nelson, "Comparison between discrete event simulation approach and various existing empirically-based models for estimation of TBM utilization," *Tunnelling and Underground Space Technology*, vol. 112, 2021.  
-3. O. Frough, A. Khetwal, and J. Rostami, "Predicting TBM utilization factor using discrete event simulation models," *Tunnelling and Underground Space Technology*, vol. 87, 2019.
+1. A. Khetwal, J. Rostami, P.P. Nelson, "Introducing uniform discrete event simulation (CSM2020) for modeling the TBM tunneling process," <em>Tunnelling and Underground Space Technology</em>, vol. 125, 2022.  
+2. A. Khetwal, J. Rostami, O. Frough, and P. P. Nelson, "Comparison between discrete event simulation approach and various existing empirically-based models for estimation of TBM utilization," <em>Tunnelling and Underground Space Technology</em>, vol. 112, 2021.  
+3. O. Frough, A. Khetwal, and J. Rostami, "Predicting TBM utilization factor using discrete event simulation models," <em>Tunnelling and Underground Space Technology</em>, vol. 87, 2019.
 </p>
