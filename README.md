@@ -1,7 +1,5 @@
 # TBM Tunneling Process Simulation
 
-## Overview
-
 <p align="justify">
 This project involves simulation modeling of the TBM (Tunnel Boring Machine) tunneling process. The simulation was conducted using the Arena simulation software. The primary objective was to create a detailed model of the tunneling process, allowing for analysis and optimization of various aspects of TBM operations.
 </p>
